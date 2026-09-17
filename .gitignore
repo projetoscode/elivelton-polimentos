@@ -1,0 +1,10 @@
+# Raw source assets (originals kept locally, optimized copies live in docs/assets)
+/img/
+/videos/
+
+# Reference clone used only as design inspiration (not part of the published site)
+/zinsp/
+
+# OS / editor
+.DS_Store
+Thumbs.db
