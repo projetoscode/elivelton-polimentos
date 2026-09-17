@@ -334,13 +334,6 @@ section{position:relative;}
   margin:0 auto;
 }
 .essence h2 em{color:var(--yellow);}
-.essence .thumb{
-  width:220px;
-  margin:56px auto 0;
-  border-radius:var(--radius);
-  overflow:hidden;
-  border:1px solid var(--line);
-}
 
 /* ---------- Pinned-style sequence ---------- */
 .sequence{
