@@ -444,7 +444,9 @@ section{position:relative;}
   width:260px;
   background:var(--panel);
   scroll-snap-align:start;
+  border-right:1px solid var(--line);
 }
+.reel-frame:last-child{border-right:none;}
 .reel-frame video{width:100%;display:block;}
 @media (min-width:900px){
   .reel-frame{flex-basis:33.334%;width:auto;}
