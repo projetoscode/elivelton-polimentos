@@ -643,6 +643,26 @@ footer{
 .footer-logo{font-family:var(--serif);font-size:26px;letter-spacing:.08em;}
 .footer-logo .accent{color:var(--yellow);}
 .footer-top p{margin-top:16px;color:var(--grey);font-size:14px;line-height:1.8;max-width:320px;}
+.footer-social{
+  margin-top:24px;
+  display:flex;
+  flex-wrap:wrap;
+  gap:10px;
+}
+.footer-social a{
+  display:inline-flex;
+  align-items:center;
+  gap:7px;
+  padding:9px 16px;
+  border:1px solid rgba(245,197,24,.3);
+  border-radius:20px;
+  font-size:12px;
+  letter-spacing:.06em;
+  color:var(--white);
+  transition:all .3s var(--ease);
+}
+.footer-social a:hover{border-color:var(--yellow);color:var(--yellow);background:var(--yellow-dim);}
+.footer-col ul li a{line-height:1.5;}
 .footer-col h4{
   font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--yellow);margin-bottom:18px;font-family:var(--sans);font-weight:600;
 }
