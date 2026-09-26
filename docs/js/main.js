@@ -47,4 +47,16 @@ document.addEventListener('DOMContentLoaded', () => {
   // Year in footer
   const yearEl = document.querySelector('[data-year]');
   if (yearEl) yearEl.textContent = new Date().getFullYear();
+
+  // SEO keywords toggle
+  const seoToggle = document.querySelector('#seoToggle');
+  const seoTags = document.querySelector('#seoTags');
+  if (seoToggle && seoTags) {
+    seoToggle.addEventListener('click', () => {
+      const open = seoTags.hasAttribute('hidden');
+      if (open) seoTags.removeAttribute('hidden');
+      else seoTags.setAttribute('hidden', '');
+      seoToggle.setAttribute('aria-expanded', String(open));
+    });
+  }
 });
