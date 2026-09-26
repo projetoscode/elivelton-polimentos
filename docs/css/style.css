@@ -442,6 +442,10 @@ section{position:relative;}
   background:var(--panel);
 }
 .video-frame video{width:100%;display:block;}
+.video-frame.portrait{max-width:380px;}
+@media (max-width:480px){
+  .video-frame.portrait{max-width:280px;}
+}
 
 /* ---------- Gallery band with CTA ---------- */
 .band{
